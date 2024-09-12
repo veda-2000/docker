@@ -1,0 +1,5 @@
+FROM httpd
+LABEL this is first deployment
+MAINTAINER vedavyas
+ADD https://github.com/veda-2000/docker/new/main/index.html /var/www/html/index.html
+EXPOSE 80
